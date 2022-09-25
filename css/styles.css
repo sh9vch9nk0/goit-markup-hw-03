@@ -229,7 +229,7 @@ ul {
   width: 370px;
 }
 .project-about {
-  border: 1px solid var(--grey);
+  border: 1px solid var(--main-color);
   border-top: none;
   padding: 20px 24px;
 }
