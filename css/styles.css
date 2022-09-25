@@ -20,7 +20,6 @@ body {
   font-family: var(--font);
   font-size: 14px;
   font-style: normal;
-  font-weight: 400;
 }
 h1,
 h2,
@@ -75,25 +74,14 @@ ul {
   width: 270px;
 }
 .feature-name {
+  font-size: 14px;
   font-weight: 700;
-  letter-spacing: 0.03em;
-  line-height: 16.41px;
-  margin-bottom: 10px;
+  text-transform: uppercase;
 }
 .features {
   display: flex;
   gap: 30px;
   padding-bottom: 0;
-}
-.first-name {
-  font-weight: 700;
-  letter-spacing: 0.03em;
-  line-height: 16.41px;
-}
-.first-about {
-  color: var(--grey);
-  letter-spacing: 0.03em;
-  line-height: 24px;
 }
 .footer-link {
   display: block;
@@ -117,14 +105,13 @@ ul {
 }
 .heading-name {
   color: var(--white);
-  font-weight: 900;
-  line-height: 60px;
   font-size: 44px;
+  font-weight: 900;
   letter-spacing: 0.06em;
+  line-height: 1.36;
   margin: 0 auto 30px;
-  text-align: center;
   text-transform: uppercase;
-  width: 696px;
+  width: 696px; 
 }
 .hidden {
   border: 0;
@@ -143,7 +130,7 @@ ul {
 }
 .link {
   font-style: normal;
-  line-height: 24px;
+  line-height: 1.71;
   letter-spacing: 0.03em;
   text-decoration: none;
 }
@@ -227,7 +214,7 @@ ul {
   font-size: 18px;
   font-weight: 700;
   letter-spacing: 0.06em;
-  line-height: 36px;
+  line-height: 2;
 }
 .project-type {
   color: var(--grey);
@@ -254,6 +241,7 @@ ul {
   text-align: center;
 }
 .team-card {
+  background-color: var(--white);
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0 0 4px 4px;
@@ -267,7 +255,6 @@ ul {
   font-weight: 500;
   font-size: 16px;
   letter-spacing: 0.03em;
-  line-height: 18.75px;
   margin-bottom: 15px;
   text-align: center;
 }
@@ -275,7 +262,6 @@ ul {
   color: var(--grey);
   font-size: 16px;
   letter-spacing: 0.03em;
-  line-height: 18.75px;
   margin-bottom: 15px;
   text-align: center;
 }
