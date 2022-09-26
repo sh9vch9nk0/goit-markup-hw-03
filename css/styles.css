@@ -33,6 +33,7 @@ img {
   max-width: 100%;
 }
 ul {
+  margin: 0;
   padding: 0;
 }
 .active {
@@ -76,6 +77,7 @@ ul {
 .feature-name {
   font-size: 14px;
   font-weight: 700;
+  margin-bottom: 10px;
   text-transform: uppercase;
 }
 .features {
@@ -85,6 +87,9 @@ ul {
 }
 .footer-link {
   display: block;
+}
+.footer-link:not(:last-child) {
+  margin-bottom: 9px;
 }
 .grey {
   color: var(--grey);
@@ -275,6 +280,9 @@ ul {
   gap: 30px;
   text-align: center;
 }
+.team-about {
+  padding: 30px 0;
+}
 .team-card {
   background-color: var(--white);
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
@@ -283,23 +291,25 @@ ul {
 }
 .team-img {
   height: 260px;
-  margin-bottom: 30px;
+  margin-bottom: 0;
   width: 270px;
 }
 .team-name {
   font-weight: 500;
   font-size: 16px;
   letter-spacing: 0.03em;
-  margin-bottom: 15px;
+  margin-bottom: 10px;
   text-align: center;
 }
 .team-prof {
   color: var(--grey);
   font-size: 16px;
   letter-spacing: 0.03em;
-  margin-bottom: 15px;
   text-align: center;
 }
 .white {
   color: var(--white);
+}
+.what-we-do {
+  padding-top: 0;
 }
