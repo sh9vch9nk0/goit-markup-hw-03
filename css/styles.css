@@ -307,9 +307,9 @@ ul {
   letter-spacing: 0.03em;
   text-align: center;
 }
-.white {
-  color: var(--white);
-}
 .what-we-do {
   padding-top: 0;
+}
+.white {
+  color: var(--white);
 }
