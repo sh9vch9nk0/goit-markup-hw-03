@@ -74,16 +74,16 @@ ul {
 .feature-card {
   width: 270px;
 }
+.features-list {
+  display: flex;
+  gap: 30px;
+  padding-bottom: 0;
+}
 .feature-name {
   font-size: 14px;
   font-weight: 700;
   margin-bottom: 10px;
   text-transform: uppercase;
-}
-.features {
-  display: flex;
-  gap: 30px;
-  padding-bottom: 0;
 }
 .footer-link {
   display: block;
